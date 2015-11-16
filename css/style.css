@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*страница "продукты для крс"*/
+.shiv1 {
+  height: 1px;
+  margin-bottom: 39px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: -5px 0 0 -5px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    margin-bottom: 20px;
+    line-height: 14px;
+}
+td,th {
+  width: 136px;
+  height: 40px;
+  text-align: center;
+  padding: 0 4px;
+}
+.pick td,.pick th {
+  width: 171px;
+}
+th {
+  background: url(../img/i_icon.png) no-repeat 111px center #0b6784;
+  color: white;
+  padding: 0;
+}
+.pick th{
+background: url(../img/i_icon.png) no-repeat 147px center #0b6784;
+}
+th div {
+  width: 111px;
+}
+.pick th div{
+  width: 147px;  
+}
+.row1 {
+  background: #ffcc00;
+}
+.row2 {
+  background: #ffff99;
+}
+.row3,
+.row3 ~ tr {
+  background: #ffffcc;
+}
+
+td a{
+    text-decoration: underline;
+}
+td:hover a {
+  text-decoration: none;
+}
+td:hover {
+  cursor: pointer;
+  background: #e0e0e0;
+}
+h3 {
+  text-transform: normal;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+h4 span {
+  text-transform: normal;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #06536c;
+}
+.ui-accordion .ui-accordion-header {
+  color: #06536c;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 15px 0;
+  padding-left: 20px;
+  min-height: 0;
+  /* support: IE7 */
+}
+.ui-state-default .ui-icon {
+  position: absolute;
+  left: .5em;
+  width: 15px;
+  height: 15px;
+  margin-left: -5px;
+  background: url(../img/ui_arrow.png) no-repeat 0 -30px;
+}
+.ui-state-active .ui-icon {
+  background: url(../img/ui_arrow.png) no-repeat 0 0;
+}
+#accordion div {
+  background: url(../img/line-bottom.jpg) no-repeat bottom;
+  padding-left: 20px;
+}
+#accordion div p {
+  padding-bottom: 20px;
+  color: #06536c;
+}
+.text11 p {
+  margin-bottom: 20px;
+}
+.about {
+  margin-bottom: 30px;
+}
+.about p {
+  margin-bottom: 20px;
+}
+.about div {
+  margin-bottom: 20px;
+  font-size: 0;
+}
+.about div img {
+  display: inline-block;
+}
+.about div img:nth-of-type(3n+2) {
+  margin: 0 20px;
+}
